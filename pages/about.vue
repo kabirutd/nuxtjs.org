@@ -1,9 +1,15 @@
 <template>
   <div class="category">
-    <nuxt-affix :list="list" category="guide" />
+  
+  About me.!
+  
+    <!--<nuxt-affix :list="list" category="guide" />-->
+    
+    <!--
     <div class="category__content Content Content--hasCarbon" :class="{'category__content--hidden': visible}">
       <nuxt-child/>
     </div>
+    -->
     <div class="category__footer">
       <nuxt-footer/>
     </div>
