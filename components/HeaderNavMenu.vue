@@ -1,8 +1,8 @@
 <template>
   <ul class="Menu">
     <li class="Menu__Item">
-      <nuxt-link class="Menu__Item__Link" to="/guide">
-        {{ $store.state.lang.links.guide }}
+      <nuxt-link class="Menu__Item__Link" to="/about">
+       <!-- {{ $store.state.lang.links.guide }} -->ABOUT ME
       </nuxt-link>
     </li>
     <li class="Menu__Item">
