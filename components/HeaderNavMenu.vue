@@ -1,31 +1,33 @@
 <template>
   <nav>
-  <ul class="Menu">
-    <li class="Menu__Item">
-      <nuxt-link class="Menu__Item__Link" to="/about">
-       <!-- {{ $store.state.lang.links.guide }} -->ABOUT ME
-      </nuxt-link>
-    </li>
-    <li class="Menu__Item">
-      <nuxt-link class="Menu__Item__Link" to="/contact">
-        <!--{{ $store.state.lang.links.api }} -->CONTACT ME
-      </nuxt-link>
-    </li>
-    <li class="Menu__Item">
-      <nuxt-link class="Menu__Item__Link" to="/resume">
-        <!--{{ $store.state.lang.links.examples }} -->MY RESUME
-      </nuxt-link>
-    </li>
-    <li class="Menu__Item">
-      <nuxt-link class="Menu__Item__Link" to="/portfolio">
-        <!-- {{ $store.state.lang.links.faq }} --> PORTFOLIO
-      </nuxt-link>
-    </li>
-    <li class="Menu__Item">
+    <ul class="Menu">
+      <li class="Menu__Item">
+        <nuxt-link class="Menu__Item__Link" to="/about">
+          <!-- {{ $store.state.lang.links.guide }} -->ABOUT ME
+        </nuxt-link>
+      </li>
+      <li class="Menu__Item">
+        <nuxt-link class="Menu__Item__Link" to="/contact">
+          <!--{{ $store.state.lang.links.api }} -->CONTACT
+        </nuxt-link>
+      </li>
+      <li class="Menu__Item">
+        <nuxt-link class="Menu__Item__Link" to="/resume">
+          <!--{{ $store.state.lang.links.examples }} -->RESUME
+        </nuxt-link>
+      </li>
+      <li class="Menu__Item">
+        <nuxt-link class="Menu__Item__Link" to="/portfolio">
+          <!-- {{ $store.state.lang.links.faq }} --> POR
+          TFOLIO
+        </nuxt-link>
+        OR
+      </li>
+      <!--<li class="Menu__Item">-->
       <!-- <nuxt-header-nav-menu-dropdown :dropdownList="dropdownList" :dropdownLabel="$store.state.lang.links.ecosystem" />-->
       RESOURCES
-    </li>
-  </ul>
+      <!-- </li>-->
+    </ul>
   </nav>
 </template>
 
