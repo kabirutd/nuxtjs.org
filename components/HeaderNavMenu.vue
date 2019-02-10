@@ -1,4 +1,5 @@
 <template>
+  <nav>
   <ul class="Menu">
     <li class="Menu__Item">
       <nuxt-link class="Menu__Item__Link" to="/about">
@@ -6,22 +7,23 @@
       </nuxt-link>
     </li>
     <li class="Menu__Item">
-      <nuxt-link class="Menu__Item__Link" to="/api">
-        {{ $store.state.lang.links.api }}
+      <nuxt-link class="Menu__Item__Link" to="/contact">
+        <!--{{ $store.state.lang.links.api }} -->CONTACT ME
       </nuxt-link>
     </li>
     <li class="Menu__Item">
-      <nuxt-link class="Menu__Item__Link" to="/examples">
-        {{ $store.state.lang.links.examples }}
+      <nuxt-link class="Menu__Item__Link" to="/resume">
+        <!--{{ $store.state.lang.links.examples }} -->MY RESUME
       </nuxt-link>
     </li>
     <li class="Menu__Item">
-      <nuxt-link class="Menu__Item__Link" to="/faq">
-        {{ $store.state.lang.links.faq }}
+      <nuxt-link class="Menu__Item__Link" to="/portfolio">
+        <!-- {{ $store.state.lang.links.faq }} --> PORTFOLIO
       </nuxt-link>
     </li>
     <li class="Menu__Item">
-      <nuxt-header-nav-menu-dropdown :dropdownList="dropdownList" :dropdownLabel="$store.state.lang.links.ecosystem" />
+      <!-- <nuxt-header-nav-menu-dropdown :dropdownList="dropdownList" :dropdownLabel="$store.state.lang.links.ecosystem" />-->
+      RESOURCES
     </li>
   </ul>
   </nav>
