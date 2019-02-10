@@ -1,7 +1,7 @@
 <template>
 
 
-  <div class="category">
+  <div class="container-fluid">
 
 
     Over 20 years of Software Engineering experience in designing, analyzing, programming, maintaining, managing web based,
